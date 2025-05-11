@@ -1,6 +1,6 @@
 Station,Date,Max Temperature (°C),Min Temperature (°C),Max Humidity (%),Min Humidity (%),Max Wind (km/h),Total Precipitation (l)
 Alaró,2025-05-10,22.7,12.5,90,57,0,0
-Alcúdia,2025-05-10,-,-,-,-,-,-
+Alcúdia,2025-05-10,22.7,13.8,96,65,13.3,0.2
 Algaida,2025-05-10,21.4,13.2,98,59,23,0
 Andratx,2025-05-10,24.5,16.1,82,47,20.5,0
 Ariany,2025-05-10,-,-,-,-,-,-
