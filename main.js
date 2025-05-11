@@ -34,7 +34,7 @@ function mapStationData(townName, stationData) {
   //   console.log(stationData);
   if (!stationData.summaries) {
     return {
-      station: "TEST",
+      station: townName,
       date: DATE,
       maxTemperature: "-",
       minTemperature: "-",
