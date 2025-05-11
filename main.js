@@ -2,9 +2,8 @@ const axios = require("axios");
 const fs = require("fs/promises");
 const path = require("path");
 const stations = require("./stations.json");
-const { stat } = require("fs");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
-const DATE = "2025-05-09";
+const DATE = getYesterdayDate();
 const URL =
   "https://api.weather.com/v2/pws/dailysummary/3day?apiKey=e1f10a1e78da46f5b10a1e78da96f525&stationId=VALUE&numericPrecision=decimal&format=json&units=m";
 const FOLDER_NAME = "./data";
@@ -30,20 +29,39 @@ async function downloadAndSave(stationId, townName) {
   }
 }
 
-function mapStationData(townName, stationData) {
-  //   console.log(stationData);
-  if (!stationData.summaries) {
-    return {
-      station: townName,
-      date: DATE,
-      maxTemperature: "-",
-      minTemperature: "-",
-      maxHumidity: "-",
-      minHumidity: "-",
-      maxWind: "-",
-      totalPrecipitation: "-",
-    };
+function getYesterdayDate() {
+  let date = new Date();
+  date.setDate(date.getDate() - 1);
+
+  const dateString = `${date.getFullYear()}-${padDate(
+    date.getMonth() + 1
+  )}-${padDate(date.getDate())}`;
+
+  return dateString;
+
+  function padDate(num) {
+    return num.toString().padStart(2, 0);
   }
+}
+
+function getDefaultResponse(townName) {
+  return {
+    station: townName,
+    date: DATE,
+    maxTemperature: "-",
+    minTemperature: "-",
+    maxHumidity: "-",
+    minHumidity: "-",
+    maxWind: "-",
+    totalPrecipitation: "-",
+  };
+}
+
+function mapStationData(townName, stationData) {
+  if (!stationData.summaries) {
+    return getDefaultResponse(townName);
+  }
+
   for (const summary of stationData.summaries) {
     if (!summary.obsTimeLocal.startsWith(DATE)) {
       continue;
@@ -60,6 +78,7 @@ function mapStationData(townName, stationData) {
       totalPrecipitation: summary.metric.precipTotal,
     };
   }
+  return getDefaultResponse(townName);
 }
 
 const csvWriter = createCsvWriter({
@@ -77,11 +96,13 @@ const csvWriter = createCsvWriter({
 });
 
 async function main() {
+  console.log(`[*] Extracting summary at ${DATE}`);
   const stationsData = [];
   for (const townName in stations) {
     const id = stations[townName];
 
     if (!id) {
+      stationData.push(getDefaultResponse(townName));
       continue;
     }
 
@@ -90,6 +111,7 @@ async function main() {
 
     stationsData.push(mappedData);
   }
+
   csvWriter
     .writeRecords(stationsData)
     .then(() => console.log("✅ CSV file written successfully."))
