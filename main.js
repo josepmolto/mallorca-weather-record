@@ -71,7 +71,7 @@ const csvWriter = createCsvWriter({
     { id: "minTemperature", title: "Min Temperature (°C)" },
     { id: "maxHumidity", title: "Max Humidity (%)" },
     { id: "minHumidity", title: "Min Humidity (%)" },
-    { id: "Max Wind", title: "Max Wind (km/h)" },
+    { id: "maxWind", title: "Max Wind (km/h)" },
     { id: "totalPrecipitation", title: "Total Precipitation (l)" },
   ],
 });
