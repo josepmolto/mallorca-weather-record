@@ -48,7 +48,7 @@ def generate_tmax_map(gdf):
     ax.set_title("Temperatura máxima en Mallorca")
     ax.axis("off")
 
-    plt.savefig(f"{OUTPUT_FOLDER}/t_max_mallorca.png", dpi=180, bbox_inches="tight")
+    plt.savefig(f"{OUTPUT_FOLDER}/t_max.png", dpi=180, bbox_inches="tight")
     plt.close()
 
 def generate_tmin_map(gdf):
@@ -82,7 +82,7 @@ def generate_tmin_map(gdf):
     ax.set_title("Temperatura mínima en Mallorca")
     ax.axis("off")
 
-    plt.savefig(f"{OUTPUT_FOLDER}/t_min_mallorca.png", dpi=180, bbox_inches="tight")
+    plt.savefig(f"{OUTPUT_FOLDER}/t_min.png", dpi=180, bbox_inches="tight")
     plt.close()
     
 def generate_rain_map(gdf):
@@ -151,7 +151,7 @@ def generate_average_humidity_map(gdf):
     ax.set_title("Humedad media en Mallorca")
     ax.axis("off")
 
-    plt.savefig(f"{OUTPUT_FOLDER}/humidity_mallorca.png", dpi=180, bbox_inches="tight")
+    plt.savefig(f"{OUTPUT_FOLDER}/humidity.png", dpi=180, bbox_inches="tight")
     plt.close()
 
 def generate_maps():
