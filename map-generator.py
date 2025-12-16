@@ -45,7 +45,7 @@ def generate_tmax_map(gdf):
                 color="black"
             )
 
-    ax.set_title("Temperatura Máxima en Mallorca")
+    ax.set_title("Temperatura máxima en Mallorca")
     ax.axis("off")
 
     plt.savefig(f"{OUTPUT_FOLDER}/t_max_mallorca.png", dpi=180, bbox_inches="tight")
@@ -79,7 +79,7 @@ def generate_tmin_map(gdf):
             txt.set_path_effects([
                 patheffects.withStroke(linewidth=1, foreground="black")])
 
-    ax.set_title("Temperatura Mínima en Mallorca")
+    ax.set_title("Temperatura mínima en Mallorca")
     ax.axis("off")
 
     plt.savefig(f"{OUTPUT_FOLDER}/t_min_mallorca.png", dpi=180, bbox_inches="tight")
@@ -113,7 +113,7 @@ def generate_rain_map(gdf):
             txt.set_path_effects([
                 patheffects.withStroke(linewidth=1, foreground="black")])
 
-    ax.set_title("Precipitación Total en Mallorca")
+    ax.set_title("Precipitación total en Mallorca")
     ax.axis("off")
 
     plt.savefig(f"{OUTPUT_FOLDER}/rain_mallorca.png", dpi=180, bbox_inches="tight")
