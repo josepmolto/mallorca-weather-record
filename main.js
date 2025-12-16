@@ -51,12 +51,11 @@ function getDefaultResponse(townName) {
   return {
     station: townName,
     date: DATE,
-    maxTemperature: "-",
-    minTemperature: "-",
-    maxHumidity: "-",
-    minHumidity: "-",
-    maxWind: "-",
-    totalPrecipitation: "-",
+    maxTemperature: "NaN",
+    minTemperature: "NaN",
+    avgHumidity: "NaN",
+    maxWind: "NaN",
+    totalPrecipitation: "NaN",
   };
 }
 
@@ -75,8 +74,7 @@ function mapStationData(townName, stationData) {
       date: DATE,
       maxTemperature: summary.metric.tempHigh,
       minTemperature: summary.metric.tempLow,
-      maxHumidity: summary.humidityHigh,
-      minHumidity: summary.humidityLow,
+      avgHumidity: summary.humidityAvg,
       maxWind: summary.metric.windspeedHigh,
       totalPrecipitation: summary.metric.precipTotal,
     };
@@ -111,8 +109,7 @@ async function main() {
       { id: "date", title: "Date" },
       { id: "maxTemperature", title: "Max Temperature (°C)" },
       { id: "minTemperature", title: "Min Temperature (°C)" },
-      { id: "maxHumidity", title: "Max Humidity (%)" },
-      { id: "minHumidity", title: "Min Humidity (%)" },
+      { id: "avgHumidity", title: "Avg Humidity (%)" },
       { id: "maxWind", title: "Max Wind (km/h)" },
       { id: "totalPrecipitation", title: "Total Precipitation (l)" },
     ],

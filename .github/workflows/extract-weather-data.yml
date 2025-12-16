@@ -23,6 +23,19 @@ jobs:
 
       - name: Run script to generate CSV
         run: node main.js 
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Python script (generate maps)
+        run: python map-generator.py
 
       - name: Commit and push changes
         run: |
