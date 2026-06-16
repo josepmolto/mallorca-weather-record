@@ -1,0 +1,55 @@
+Station,Date,Max Temperature (°C),Min Temperature (°C),Avg Humidity (%),Max Wind (km/h),Total Precipitation (l)
+Alaró,2026-06-15,32,19.2,48.5,0,0
+Alcúdia,2026-06-15,30.3,18.2,64.5,20.5,0
+Algaida,2026-06-15,31.9,19.7,56.9,25.6,0
+Andratx,2026-06-15,29.7,19.9,60.1,14,0
+Ariany,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Artà,2026-06-15,32.7,17.7,57.4,23,0
+Banyalbufar,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Binissalem,2026-06-15,34.7,16.1,61.2,11.1,0
+Búger,2026-06-15,34.5,15.7,57,15.4,0
+Bunyola,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Cabrera,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Calvià,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Campanet,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Campos,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Capdepera,2026-06-15,32.6,20.2,58,20.6,0
+Consell,2026-06-15,32.9,15.4,64.6,28.8,0
+Costitx,2026-06-15,35,17.3,63.5,11.6,0
+Deià,2026-06-15,28.6,20,67.9,10.4,0
+Escorca,2026-06-15,27.7,10.8,70.4,10.4,0
+Esporles,2026-06-15,30.8,18.4,71.3,21.6,0
+Estellencs,2026-06-15,27,19.4,69,14.4,0
+Felanitx,2026-06-15,33.3,18.9,58.4,22.2,0
+Fornalutx,2026-06-15,28.3,18.7,67.1,0.6,0
+Inca,2026-06-15,34.7,20.1,57.1,16.6,0
+Lloret de Vistalegre,2026-06-15,32.4,17.9,64,11.1,0
+Lloseta,2026-06-15,32.9,17.3,58.5,36.7,0.61
+Llubí,2026-06-15,33.8,17.7,54.8,13.3,0
+Llucmajor,2026-06-15,,,,22.3,0
+Manacor,2026-06-15,33.1,17.8,60.6,19.1,0
+Mancor,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Maria de la Salut,2026-06-15,31.7,18.4,59.6,22,0
+Marratxí,2026-06-15,33.7,19.6,63.2,20.4,0
+Montuïri,2026-06-15,32.1,15,67.9,24.8,0
+Muro,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Palma,2026-06-15,31.7,20.7,69.1,13,0
+Petra,2026-06-15,34.1,17.8,57.5,16.4,0
+Pollença,2026-06-15,28.6,19.8,45.5,22.5,0
+Porreres,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Sa Pobla,2026-06-15,31.9,18.4,57.9,10.8,0
+Puigpunyent,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Ses Salines,2026-06-15,33.2,17,70.4,7.2,0
+Sant Joan,2026-06-15,31.1,18.8,55.6,17.7,0
+Sant Llorenç des Cardassar,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Sencelles,2026-06-15,34.7,18.1,65.5,16.3,0
+Santa Eugènia,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Santa Margalida,2026-06-15,32.7,19.7,57.8,20.9,0
+Santa María del Camí,2026-06-15,32.7,16.7,60.4,24.5,0
+Santanyí,2026-06-15,,,,4,0
+Selva,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Sineu,2026-06-15,NaN,NaN,NaN,NaN,NaN
+Sóller,2026-06-15,28.1,18.6,72.1,23.8,0
+Son Servera,2026-06-15,31.1,18.9,55.1,22.3,0
+Valldemossa,2026-06-15,26.7,17.7,68.5,16.2,0
+Vilafranca de Bonany,2026-06-15,32.1,18.5,61.4,30.2,0
