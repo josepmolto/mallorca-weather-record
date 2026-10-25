@@ -5,7 +5,7 @@ const stations = require("./stations.json");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const DATE = getYesterdayDate();
 const URL =
-  "https://api.weather.com/v2/pws/dailysummary/3day?apiKey=e1f10a1e78da46f5b10a1e78da96f525&stationId=VALUE&numericPrecision=decimal&format=json&units=m";
+  "https://api.weather.com/v2/pws/dailysummary/3day?apiKey=ff90f212a6984a7390f212a698ea73ccff90f212a6984a7390f212a698ea73cc&stationId=VALUE&numericPrecision=decimal&format=json&units=m";
 const FOLDER_DATA = createAndGetFolderData();
 
 async function downloadStationSummaryData(stationId, townName) {
