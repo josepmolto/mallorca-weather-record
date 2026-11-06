@@ -1,0 +1,55 @@
+Station,Date,Max Temperature (°C),Min Temperature (°C),Avg Humidity (%),Max Wind (km/h),Total Precipitation (l)
+Alaró,2026-11-05,20.1,12.3,77.9,0,4.83
+Alcúdia,2026-11-05,21.6,13.2,80.1,14.4,0.2
+Algaida,2026-11-05,20.4,12.5,86.9,27.7,15.29
+Andratx,2026-11-05,22.7,12.9,73.8,13.7,0
+Ariany,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Artà,2026-11-05,21.4,11.6,90.9,15.8,4.8
+Banyalbufar,2026-11-05,19.7,11.9,92,11.6,8.71
+Binissalem,2026-11-05,24.7,10.6,85.4,13.4,11.18
+Búger,2026-11-05,21.2,12.8,87.1,15.4,3.05
+Bunyola,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Cabrera,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Calvià,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Campanet,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Campos,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Capdepera,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Consell,2026-11-05,20.6,13.4,81.7,19.2,16
+Costitx,2026-11-05,21.1,11,92.3,9.3,13
+Deià,2026-11-05,20.4,13.6,73.2,7.2,12.5
+Escorca,2026-11-05,15.4,5.2,95.6,0,2.49
+Esporles,2026-11-05,21.7,10.9,90.5,9,0
+Estellencs,2026-11-05,21.8,12.4,78.2,13.7,11.2
+Felanitx,2026-11-05,22,13.2,89.4,26.6,11.18
+Fornalutx,2026-11-05,19.2,11.9,81.2,6.1,2.49
+Inca,2026-11-05,24,13.7,82.8,9,4.29
+Lloret de Vistalegre,2026-11-05,20.6,11.4,89.7,6.9,0
+Lloseta,2026-11-05,20.7,12.6,84.3,25.6,7.29
+Llubí,2026-11-05,22.2,12.2,84.5,11.5,4.6
+Llucmajor,2026-11-05,,,,18.7,16.69
+Manacor,2026-11-05,23.5,12.5,85,8.6,5.41
+Mancor,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Maria de la Salut,2026-11-05,19.9,12.2,89.7,15.5,0
+Marratxí,2026-11-05,21.6,12.6,82.7,17.2,12.19
+Montuïri,2026-11-05,20.3,11.1,95.1,20.6,0.51
+Muro,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Palma,2026-11-05,22.8,14.2,79.2,22.3,19.3
+Petra,2026-11-05,21.5,11.7,86.6,15,6.35
+Pollença,2026-11-05,18.2,13.2,65.2,22.5,0.25
+Porreres,2026-11-05,21.4,12.7,85.9,20.5,10.21
+Sa Pobla,2026-11-05,21,12.9,82.5,2.1,2.79
+Puigpunyent,2026-11-05,20.6,13,78.1,13.7,11.94
+Ses Salines,2026-11-05,22,12.5,88.1,0.4,10.39
+Sant Joan,2026-11-05,19.9,13.1,55.8,17.1,2.29
+Sant Llorenç des Cardassar,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Sencelles,2026-11-05,22.1,11.3,89.1,14.3,14.99
+Santa Eugènia,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Santa Margalida,2026-11-05,20.7,13.4,84.1,19.8,3.61
+Santa María del Camí,2026-11-05,20.7,12,80.4,23,8.71
+Santanyí,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Selva,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Sineu,2026-11-05,NaN,NaN,NaN,NaN,NaN
+Sóller,2026-11-05,19.6,10.9,88.6,13,1.8
+Son Servera,2026-11-05,21.1,13.6,80.9,14.4,0.3
+Valldemossa,2026-11-05,19.2,12.4,74,13,7.8
+Vilafranca de Bonany,2026-11-05,20.6,12.7,86.9,18,2.49
